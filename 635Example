@@ -1,0 +1,5 @@
+use 635Example1;
+create table `students`(`studentID` INT(10) NOT NULL AUTO_INCREMENT,`fname` varchar(225) default null,`lname` varchar(255) default null, `address` varchar(225) default null, `gpa` float(11,2) default null,primary key(`studentID`));
+ Insert into `students`  values (1,'Doyinsola', 'Alade', 'Central Ave', 4.0),(2, 'Akarshitha', 'Gunturu','Princeton', 4.0),
+                         (3, 'Karthic',' Paramasivam', 'Harisson', 4.0), (4, 'Justino',' Garcia', 'New York', 4.0),
+                         ( 5,'Nikhil',' Rao Balaji', 'Harisson', 4.0);
